@@ -1,0 +1,248 @@
+html {
+    font-family: 'Lato', sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+.container {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 26px;
+}
+
+.nav {
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #828282;
+}
+
+.nav__iten {
+    text-decoration: none;
+    font-weight: 700;
+    color: #828282;
+    transition: 0.5s;
+}
+
+.nav__iten:hover {
+    color: #070707;
+}
+
+.hero__info {
+    height: 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 50px;
+}
+
+.name {
+    font-size: 47.3392px;
+    line-height: 59px;
+    color: #070707;
+    font-weight: 700;
+}
+
+.word {
+    margin-bottom: 7px;
+    font-size: 18px;
+    line-height: 22px;
+    color: #070707;
+    font-weight: 500;
+    align-self: flex-end;
+}
+
+.language-box {
+    margin-bottom: 27px;
+}
+
+.language {
+    font-size: 16px;
+    line-height: 20px;
+    color: #828282;
+    transform: rotate(-90deg);
+    margin-right: -20px;
+}
+
+.hero__img {
+    margin-bottom: 100px;
+}
+
+.about-me {
+    height: 400px;
+    background: #F6F6F6;
+    padding-top: 120px;
+}
+
+.title {
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    color: #070707;
+    font-weight: 700;
+
+}
+
+.title2 {
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    color: #070707;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+
+.text {
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.skills {
+    
+    padding-top: 90px;
+    padding-bottom: 110px;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 210px;
+    width: 166px;
+}
+
+.card__text{
+    margin-top: 23px;
+    margin-bottom: 40px;
+    width: 80px;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #828282;
+}
+.card__stars{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 166px;
+}
+
+.card__stars>img {
+    width: 26px;
+}
+
+.portfolio {
+    background: #F6F6F6;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.portfolio__img {
+    margin-top: 50px;
+}
+
+.portfolio__text {
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #070707;
+    margin-top: 45px;
+    margin-bottom: 50px;
+}
+
+.contacts {
+    height: 400px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.box__0 {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+
+    background-color: #070707;
+    height: 40px;
+    width: 180px;
+    border-radius: 30px;
+}
+
+.box__text {
+    margin-top: 7px;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.contacts__links {
+    display: flex;
+    justify-content: space-between;
+    max-width: 340px;
+    margin: 90px auto 45px auto;
+    
+}
+
+.contacts__text {
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #828282;
+}
+.k__2 {
+    display: inline-block;
+    align-items: stretch;
+    margin: 0px 5px 0px 5px;
+}
+
+@media screen and ( max-width: 850px ) {
+    .card {
+        flex-basis: 50%;
+        margin-bottom: 50px;
+    }
+    .skills {
+        padding-bottom: 50px;
+    }
+}
+
+@media screen and ( max-width: 450px ) {
+    .card {
+        flex-basis: 100%;
+        margin-bottom: 50px;
+    }
+    .language-box{
+        display: none;
+    }
+    .hero__info{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .word{
+        align-self: flex-start;
+        margin-top: 23px;
+    }
+    .hero__img{
+        margin-top: 37px;
+    }
+    .header{
+        display: none;
+    }
+
+}
