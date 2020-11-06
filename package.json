@@ -1,0 +1,50 @@
+{
+  "name": "saytspb",
+  "version": "1.0.0",
+  "description": "Дипломная работа Web-start",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maxim-rrrr/Glo-Academy--graduate-work"
+  },
+  "browserslist": [
+    "> 1%",
+    "ie >= 11",
+    "edge >= 15",
+    "ie_mob >= 10",
+    "ff >= 45",
+    "chrome >= 45",
+    "safari >= 7",
+    "opera >= 23",
+    "ios >= 7",
+    "android >= 4",
+    "bb >= 10"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Maxim-rrrr/Glo-Academy--graduate-work/issues"
+  },
+  "homepage": "https://github.com/Maxim-rrrr/Glo-Academy--graduate-work#readme",
+  "devDependencies": {
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-minify": "^3.1.0",
+    "gulp-sass": "^4.1.0",
+    "node-sass": "^5.0.0"
+  },
+  "dependencies": {
+    "browser-sync": "^2.26.7",
+    "codyhouse-framework": "^2.5.5",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-minifier": "^3.5.0",
+    "gulp-tinypng-compress": "^1.2.5",
+    "minify": "^5.1.1"
+  }
+}
